@@ -22,7 +22,7 @@ public class Main {
 
 class Solution {
     public int lengthOfLongestSubstring(String s) {
-
+        //https://leetcode.com/problems/longest-substring-without-repeating-characters/description/
         // Initialize the set to store characters and two pointers
         HashSet<Character> set = new HashSet<>();
         int left = 0, maxLength = 0;
