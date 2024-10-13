@@ -9,7 +9,7 @@ public class BinarySearchFindFirstAndLastOccuranceOfNo {
         int[] ans = searchRange(arrayofno, targetToFind);
         System.out.println(Arrays.toString(ans));
     }
-    public int[] searchRange(int[] nums, int target) {
+    public static int[] searchRange(int[] nums, int target) {
         int[] ans = {-1, -1};
 
         ans[0] = findFirstAndLastOccuranceOfNo(nums, target, true);
@@ -19,7 +19,7 @@ public class BinarySearchFindFirstAndLastOccuranceOfNo {
     }
 
 
-     int findFirstAndLastOccuranceOfNo(int[] argChar, int target, boolean isFirstIndex) {
+     static int findFirstAndLastOccuranceOfNo(int[] argChar, int target, boolean isFirstIndex) {
 
         int ans = -1;
         int start = 0;
