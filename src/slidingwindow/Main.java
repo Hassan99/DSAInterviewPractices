@@ -21,11 +21,7 @@ public class Main {
             }
             end = windowEnd;
         }
-        System.out.println("The Array required is:");
-        while(windowStart<=end){
-            System.out.print(array[windowStart]);
-            windowStart++;
-        }
+
         return maxSum;
     }
 }
